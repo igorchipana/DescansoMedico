@@ -18,10 +18,10 @@ import java.sql.SQLException;
 public class Factory_Conexion {
     
     
-     private static final String URL = "jdbc:mysql://localhost:3306/algoaqui";
+     private static final String URL = "jdbc:mysql://localhost:3306/descanso";
     private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String USER = "root";
-    private static final String PASS = "";
+    private static final String PASS = "root";
     private static Connection cx = null;
 
     public static Connection getConexion() {
